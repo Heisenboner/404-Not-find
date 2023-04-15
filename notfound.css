@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&family=Montserrat:wght@500&family=Space+Mono:wght@400;700&display=swap');
+
+body{
+margin:0;
+padding:0;
+overflow-x: hidden;
+
+}
+
+.notfound{
+    position: absolute;
+    color:#333333;
+    width:190px;
+    height:25px;
+    left:77px;
+    top:40px;
+
+}
+
+.not-found-text{
+    font-weight:700;
+    font-family:'Inconsolata', monospace;
+    font-size:24px;
+    text-transform:uppercase;
+    line-height:25px;
+    letter-spacing:-0.08em;
+}
+
+.scary{
+   position: absolute;
+   left:90px;
+    top:160px;
+    width:540px;
+    height:447px; 
+}
+
+
+.bad-news-box{
+    position: absolute;
+    left:735px;
+    top:160px;
+    width:586px;
+    height:190px;
+}
+
+.bad-news{
+    font-family: 'Space Mono', monospace;
+    font-size:64px;
+    font-weight:700;
+    color:#333333;
+    line-height:95px;
+    letter-spacing:-0.035em;
+}
+
+.undertext-box{
+    width:381px;
+    height:108px;
+    position:absolute;
+    top:380px;
+    left:736px ;
+    
+
+}
+
+.undertext{
+    font-family: 'Space Mono', monospace;
+    font-weight:400;
+    font-size:24px;
+    color: #4F4F4F;
+    line-height: 35px;
+    letter-spacing:-0.035em;
+}
+
+.button{
+    position: absolute;
+    left: 740px;
+    top:540px;
+    background-color: #333333;
+    width:216px;
+    height:68px;
+}
+
+.button-text{
+    font-family: 'Space Mono', monospace;
+    font-weight:700;
+    font-size:14px;
+    line-height:21px;
+    letter-spacing:-0.035em;
+    color:#FFFFFF;
+}
+
+a{
+    text-decoration: none;
+    width:100%;
+    height: 100%;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.button:hover{
+    background-color: #4F4F4F;
+}
+
+.foot{
+    position: absolute;
+    width:350px;
+    height:17px;
+    text-align:center;
+    top:95%;
+    left:50%;
+    transform: translate(-50% , -50%); 
+}
+
+.foot-text{
+    font-family: 'Montserrat', sans-serif;
+    font-size:14px;
+    font-weight:700;
+    line-height:17px;
+    color:#BDBDBD;
+
+}
+
+@media only screen and (max-width:500px){
+    .notfound{
+        position: absolute;
+        color:#333333;
+        width:133px;
+        height:25px;
+        left:20px;
+        top:24px;
+    }
+
+    .scary{
+        position: absolute;
+        left:44px;
+         top:109px;
+         width:287px;
+         height:238px; 
+    }
+
+    .bad-news-box{
+        position: absolute;
+        left:15px;
+        top:407px;
+        width:340px;
+        height:142px;
+    }
+
+    .bad-news{
+        font-family: 'Space Mono', monospace;
+        font-size:48px;
+        font-weight:700;
+        color:#333333;
+        line-height:71px;
+        letter-spacing:-0.035em;
+    }
+
+    .undertext-box{
+        width:328px;
+        height:81px;
+        position:absolute;
+        top:579px;
+        left:23px ;
+    }
+
+    .undertext{
+        font-family: 'Space Mono', monospace;
+        font-weight:400;
+        font-size:18px;
+        color: #4F4F4F;
+        line-height: 26px;
+        letter-spacing:-0.035em;
+    }
+    
+    .button{
+        position: absolute;
+        left:24px;
+        top:700px;
+        background-color: #333333;
+        width:216px;
+        height:68px;
+    }
+
+    .foot{
+        position: absolute;
+        width:350px;
+        height:17px;
+        text-align:center;
+        top:92%;
+        left:50%;
+        transform: translate(-50% , -50%); 
+    }
+
+}
